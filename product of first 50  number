@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class ProductTest {
+    public static void main(String[] values) {
+        long product = 1L, limit = 100L;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Calculates Product of first n numbers");
+        System.out.println("-------------------------------------");
+        System.out.print("Enter limit number:");
+        limit = sc.nextInt();
+        for(long i=1;i<=limit;i++) {
+            product *= i;
+        }
+        System.out.println("Product of first '"+limit+"' numbers: " + product);
+    }
+}
