@@ -1,0 +1,13 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        int i;
+ int a = 100;
+ for(i=0;i<a;i++){
+
+     if (i%2==0){
+     System.out.println(i);
+ }
+
+    }
+}}
