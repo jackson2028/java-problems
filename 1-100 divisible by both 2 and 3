@@ -1,0 +1,17 @@
+import java.util.Scanner;
+class main{
+    public static void main(String[]args){
+        int i;
+ int a = 100;
+ for(i=0;i<a;i++){
+
+     if (i%2==0 ){
+     System.out.println(i+" is divisible by 2 ");
+ }
+    }
+ for(i = 0;i <100;i++){
+     if(i%3==0){
+         System.out.println(i+" is divisible by 3");
+     }
+ }
+}}
